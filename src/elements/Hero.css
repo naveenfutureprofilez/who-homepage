@@ -1,0 +1,105 @@
+.HeroSlider {
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0 30px;;
+}
+
+.HeroSlider .Hero-Bg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: luminosity;
+    opacity: 0.5;
+    background-size: cover;
+}
+.HeroSlider .container{
+    position: relative; 
+    z-index: 7;
+}
+.HeroSlider h1{
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 50px; 
+    line-height: 60px;
+    margin: 0 0 20px;;
+}
+.HeroSlider h1 span{
+    color: #7EFED3;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+.HeroSlider p{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 30px;;
+}
+.HeroSlider .ButttonPrimery{
+    margin-top:20px;
+}
+
+.HeroMobile{
+    position: relative;
+}
+.MobileThumb1 { position: absolute; left: 25%; top: 20px; animation-name: rotate-deg;
+    animation-timing-function: ease; animation-duration: 3s;
+    animation-iteration-count: infinite; }
+.MobileThumb2 { position: absolute; bottom: 50px; left: -10px;animation-name: bounce;
+    animation-timing-function: ease; animation-duration: 3s;
+    animation-iteration-count: infinite; }
+.MobileThumb3 { position: absolute; bottom: 30px; right: 30px;animation-name: bounce;
+    animation-timing-function: ease; animation-duration: 3s;
+    animation-iteration-count: infinite; }
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translate(5px); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes rotate-deg{
+    0% {
+    transform:rotate(0deg) translateY(0)
+    }
+    50% {
+    transform:rotate(0) translateY(-4px)
+    }
+    100% {
+    transform:rotate(0) translateY(0)
+    }
+    }
+
+    @media  (max-width: 1199px){
+        .HeroSlider h1{font-size: 40px;line-height: 50px;margin: 0 0 10px;}
+        .HeroSlider{ padding: 60px 0 30px;}
+        .HeroSlider p{ line-height: 26px;font-size: 18px;margin: 0 0 20px;}
+        .HeroSlider .ButttonPrimery { margin-top: 10px; }
+    }
+    @media  (max-width:  991px){
+        .HeroSlider { padding: 90px 0 30px; }
+        .HeroSlider h1 { font-size: 32px; line-height: 44px;}
+        .HeroSlider p { line-height: 24px; font-size: 16px; margin: 0 0 20px; }
+        
+    }
+    @media  (max-width:  767px){
+        .HeroSlider { padding: 100px 0 20px; }
+        .HeroSlider h1 { font-size: 28px; line-height: 36px; }
+        .HeroSlider p { line-height: 24px; font-size: 14px; margin: 0 0 10px; }
+        .MobileThumb1 img, .MobileThumb2 img, .MobileThumb3 img{max-width: 110px;;}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

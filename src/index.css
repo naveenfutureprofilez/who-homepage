@@ -1,0 +1,32 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@300;400;500&display=swap');
+@import url('https://api.fontshare.com/css?f[]=satoshi@300,400,500,700&display=swap');
+
+html body {font-family: 'Satoshi', sans-serif; padding:0;margin:0;background: #292E3C;;}
+a, a:hover{text-decoration: none;outline: none;}
+button, input, textarea, select{text-decoration: none;outline: none;}
+img{max-width: 100%;}
+
+
+.ButttonPrimery{
+    background: #FFFFFF; 
+    border-radius: 5px;
+    font-weight: 500; 
+    font-size: 16px; 
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #6476FF;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    text-decoration: none;
+    min-width: 180px;
+    display: inline-block;
+    text-align: center;
+    animation:  2s ease-out;
+}
+
+.ButttonPrimery:hover{background: #6476FF;color: #fff;}
+
+@media  (max-width:  1199px){
+    .ButttonPrimery{    font-size: 14px;}
+}

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9fae2707.css",
+    "main.js": "/static/js/main.047d5186.js",
+    "static/js/787.73d3b24a.chunk.js": "/static/js/787.73d3b24a.chunk.js",
+    "static/media/featurebgimg.png": "/static/media/featurebgimg.c89170f73e9211aced7e.png",
+    "static/media/MobileThumbimg2.svg": "/static/media/MobileThumbimg2.a62f51c462f19a1af81609a793b09c3b.svg",
+    "static/media/MobileThumbimg3.svg": "/static/media/MobileThumbimg3.809d38f65a9fe1d42d52b04f2d41a0c7.svg",
+    "static/media/mobile-frame.png": "/static/media/mobile-frame.459f48ac4874c19db061.png",
+    "static/media/MobileThumbimg1.svg": "/static/media/MobileThumbimg1.218470af849bd845c32dbd38d12561ca.svg",
+    "static/media/plan-item.svg": "/static/media/plan-item.45c3ad197183c00e3b53.svg",
+    "static/media/pricebg.svg": "/static/media/pricebg.da4d1e6d911eccbcfb11.svg",
+    "static/media/apppriceBg.png": "/static/media/apppriceBg.99beeaf40e06155b3c1f.png",
+    "static/media/hero-banner-bg.png": "/static/media/hero-banner-bg.2b3241d4c1993da11764.png",
+    "static/media/footerlogo.svg": "/static/media/footerlogo.b1582c221d6832f22d9f177d7f7a9629.svg",
+    "static/media/logo.svg": "/static/media/logo.241ed09e99e35737eeb6cfa0ca425b0b.svg",
+    "index.html": "/index.html",
+    "main.9fae2707.css.map": "/static/css/main.9fae2707.css.map",
+    "main.047d5186.js.map": "/static/js/main.047d5186.js.map",
+    "787.73d3b24a.chunk.js.map": "/static/js/787.73d3b24a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fae2707.css",
+    "static/js/main.047d5186.js"
+  ]
+}
