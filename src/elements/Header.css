@@ -1,0 +1,8 @@
+#header{padding: 10px 0;position: absolute;top: 0;left: 0;width: 100%;z-index: 99;; }
+@media  (min-width: 1230px){
+    .container{max-width: 1200px;}
+}
+
+@media  (max-width: 1230px){
+    
+}
